@@ -1,0 +1,24 @@
+# General
+flask>=2.3.0
+python-dotenv>=1.0.0
+pypdf>=4.0.0
+
+# Sentence Transformers for embeddings
+sentence-transformers>=2.7.0
+
+# Pinecone Vector Database
+# The package was renamed from 'pinecone-client' to 'pinecone'.
+# We are using a version >= 4.0.0 for modern features.
+pinecone-client>=4.0.0
+
+# LangChain - Core and Community Packages
+# The LangChain ecosystem is now modular. It's best practice to use
+# compatible versions across all related packages (e.g., 0.2.x series).
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-pinecone>=0.1.0
+langchain-experimental>=0.0.50
+langchain-text-splitters>=0.2.0
+
+-e .
