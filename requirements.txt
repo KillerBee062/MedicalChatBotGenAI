@@ -20,5 +20,6 @@ langchain-openai>=0.1.0
 langchain-pinecone>=0.1.0
 langchain-experimental>=0.0.50
 langchain-text-splitters>=0.2.0
+langchain-google-genai>=0.1.0
 
 -e .
